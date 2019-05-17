@@ -11,7 +11,7 @@ services:
         networks:
             - spring-cloud-network
         volumes:
-            - spring-cloud-config-repo:/var/lib/spring-cloud/config-repo
+            - spring-cloud-config-repo:/var/lib/spring-cloud/config-repo/config-client-development.properties
         logging:
             driver: json-file
     config-client:
